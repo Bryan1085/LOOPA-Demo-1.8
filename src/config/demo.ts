@@ -1,4 +1,4 @@
 export const DEMO_MODE =
   typeof import.meta.env.VITE_DEMO_MODE === 'undefined'
-    ? true
+    ? false
     : import.meta.env.VITE_DEMO_MODE !== 'false';
